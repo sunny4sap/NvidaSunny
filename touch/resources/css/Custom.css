@@ -1,0 +1,117 @@
+﻿/** insert your custom css code here */
+.list-img {
+  width: 80px;
+  margin-right:5px;
+}
+
+.list-img > img {
+  width: 64px;
+  height: 64px; 
+}
+
+.list-title {
+  width: 200px;
+  font-size:80%;
+}
+table
+{
+background: #ccc;
+margin: 5px;
+
+border: #ccc 5px solid;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-border-radius: 10px;
+
+}
+table th
+{
+    padding: 2px 10px;
+}
+table td
+{
+    background: #fff;
+    padding: 2px 10px 4px 10px;
+}
+table tr.even td
+{
+    background: #eee;
+}
+table tr:last-child td:first-child
+{
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -border-bottom-left-radius: 10px;
+}
+table tr:last-child td:last-child
+{
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -border-bottom-right-radius: 10px;
+}
+table.collapsed
+{
+    border-collapse: collapse;
+}
+.Header
+{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+    
+    background-repeat: repeat-x;
+    height: 40px;
+    vertical-align: middle;
+}      
+.divider
+{
+    height: 10px;
+    background-image:url('MenuItemBg.png');
+    
+    
+}
+.HeadText
+{
+    
+    font-family: Arial;
+    font-size: 12px;
+    width: 90px;
+    /*margin: 2px;
+    padding: 2px;*/
+    font-weight: bold;
+    text-align: right;
+}
+.HbODYText
+{
+    font-family: Arial;
+    font-size: 12px;
+    width: 90px;
+    /*margin: 2px;*/
+    padding-right: 30px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+.HeadermAIN
+{
+    /*position: absolute;
+    top: 28px;
+    left: 85px;*/
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color : #0066cc;
+   
+}
+.Corner
+{
+    /*border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;*/
+    border-radius:10px;
+    width: 200px; padding: 5px; background-color: Gray; background-image:url('../../../images/spendingBg.png');
+    
+}
+.spendingHeader{font-family: Calibri; font-size: 20px; text-align: center; color: Gray;vertical-align:top;margin:0px;}
+.brupp{font-family: Calibri; font-size: 12px; text-align: center; color: Gray;}
